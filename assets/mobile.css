@@ -1,0 +1,98 @@
+ @media screen and (max-width: 940px) {
+*{
+    overflow-x:hidden !important;
+}
+.navbar button{
+    position: relative;
+}
+nav.navbar{
+    position: fixed !important;
+    width: 100%;
+    height:auto;
+}
+div.home-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+}
+div.home-section .col1 h1{
+font-size: 3rem;
+font-weight: 900;
+}
+div.home-section .col1 p{
+    font-size: 1rem;
+
+}
+div.home-section .col2{
+    margin-top: 5%;
+ }
+
+
+
+ /* prouct image styling-------------------- */
+
+ div.bg-image img{ border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ;
+}
+
+ /* contact-form------------------- */
+ .form-area{
+    padding: 10%;
+}
+
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,1);
+}
+.left{
+    background: blueviolet;
+    padding: 10px 38px;
+}
+.left h2{
+    display: flex;
+    font-family: poppins;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1rem;
+}
+.left h2 span{
+    font-weight: 9010;
+
+}
+
+.right{
+    padding: 30px 10px;
+    position: relative;
+}
+.right i{
+    position:absolute;
+    font-size: 80px;
+    left: -27px;
+    color: #fff;
+}
+.form-control{
+    border: 2px solid #4b11f8;
+}
+.right button{
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    background: #5016ff;
+    width:20hr;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+}
